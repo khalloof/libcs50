@@ -15,15 +15,17 @@
 ### Ubuntu
 
 ```
-$ curl -s https://packagecloud.io/install/repositories/cs50/repo/script.deb.sh | sudo bash
-$ sudo apt-get install libcs50
+curl -s https://packagecloud.io/install/repositories/cs50/repo/script.deb.sh | sudo bash
+sudo apt-get install libcs50
+
 ```
 
 ### Fedora
 
 ```
-$ curl -s https://packagecloud.io/install/repositories/cs50/repo/script.rpm.sh | sudo bash
-$ yum install libcs50
+curl -s https://packagecloud.io/install/repositories/cs50/repo/script.rpm.sh | sudo bash
+yum install libcs50
+
 ```
 
 ### From Source (Linux and Mac)
